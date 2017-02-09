@@ -1,0 +1,121 @@
+// Place all the styles related to the static_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+html, body, section
+{
+	height: 100%;
+}
+
+#wrapper
+{
+ width: 100%;
+ text-align: center;
+}
+
+#tower-wrapper
+{
+	background-image: url("http://www.ufunk.net/wp-content/uploads/2012/09/Animated-Tower-1.jpg");
+	width: 610px;
+	height: 650px;
+	display: inline-block;
+}
+
+#tower
+{
+	margin: auto;
+	width: 370px;
+	height: 380px;
+	padding-top: 93px;
+}
+
+#first
+{
+	height: 60px;
+	width: 375px;
+
+
+	#f1
+	{
+		width: 151px;
+		height: 100%;
+		float: left;
+	}
+
+	#f1:hover
+		{
+			background-color: rgba(220, 20, 60, 0.6);
+		}
+
+	#f2
+	{
+		width: 224px;
+		height: 100%;
+		float: left;
+	}
+
+	#f2:hover
+	{
+		background-color: rgba(255, 255, 255, 0.5);
+	}
+}
+
+#second
+{
+	height: 50px;
+	width: 375px;
+
+	#s1
+	{
+		width: 151px;
+		height: 100%;
+		float: left;
+	}
+
+	#s1:hover
+	{
+		background-color: rgba(255, 255, 255, 0.5);
+	}
+
+	#s2
+	{
+		width: 224px;
+		height: 100%;
+		float: left;
+	}
+
+	#s2:hover
+	{
+		background-color: rgba(220, 20, 60, 0.6);
+	}
+}
+
+#third
+{
+	height: 50px;
+	width: 375px;
+
+	#t1
+	{
+		width: 224px;
+		height: 100%;
+		float: left;
+	}
+
+	#t1:hover
+	{
+		background-color: rgba(220, 20, 60, 0.6);
+	}
+
+	#t2
+	{
+		width: 151px;
+		height: 100%;
+		float: left;
+	}
+
+	#t2:hover
+	{
+		background-color: rgba(220, 20, 60, 0.6);
+	}
+}
