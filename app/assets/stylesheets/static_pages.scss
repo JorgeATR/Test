@@ -119,3 +119,68 @@ html, body, section
 		background-color: rgba(220, 20, 60, 0.6);
 	}
 }
+
+
+
+//Test
+
+//wwrappers
+#test-section
+{
+	text-align: center;
+	height: 100%;
+
+	#image
+	{
+		background-image: url("http://www.ufunk.net/wp-content/uploads/2012/09/Animated-Tower-1.jpg");
+		width: 610px;
+		height: 650px;
+		display: inline-block;
+
+		#poly-wrapper
+		{
+			margin: auto;
+			width: 377px;
+			height: 380px;
+			padding-top: 110px;
+		}
+	}
+}
+
+
+//tower floors
+#firstp
+{
+	height: 50px;
+	width: 377px;
+}
+
+#secondp
+{
+	height: 50px;
+	width: 377px;
+}
+
+
+
+
+//global polygon rules
+.poly1
+{
+	fill: transparent;
+}
+
+.poly1:hover
+{
+	fill: rgba(220, 20, 60, 0.6);
+}
+
+.poly2
+{
+	fill: transparent;
+}
+
+.poly2:hover
+{
+	fill: rgba(255, 255, 255, 0.5);;
+}
